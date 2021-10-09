@@ -69,6 +69,14 @@
   box-sizing: border-box;
 }
 
+/* customize by jesse zhang */
+#career-profile {
+  text-transform: initial;
+  border-top-style:groove;
+  letter-spacing: 1px;   
+}
+/* customize by jesse zhang */
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
