@@ -70,11 +70,57 @@
 }
 
 /* customize by jesse zhang */
+/* About section css revise */
 #career-profile {
   text-transform: initial;
   border-top-style:groove;
   letter-spacing: 1px;   
 }
+/* About section css revise */
+/* Icon hover css */
+.contact-icon {
+  position: relative;
+}
+.contact-icon img.qrcode.qq-code {
+  position: absolute;
+  z-index: 99;
+  max-width: none;
+  transform: scale(0);
+  transform-origin: top right;
+  opacity: 0;
+  border: .3125rem solid green;
+  border-radius: .25rem;
+  -webkit-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  top: -430px;
+  right: -150px;
+  width: 17.5rem;
+  height: 26.5rem;
+}
+.contact-icon img.qrcode.wechat-code{
+  position: absolute;
+  z-index: 99;
+  max-width: none;
+  transform: scale(0);
+  transform-origin: top right;
+  opacity: 0;
+  border: .3125rem solid green;
+  border-radius: .25rem;
+  -webkit-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  top: -350px;
+  right: -150px;
+  width: 17.5rem;
+  height: 21.5rem;
+}
+
+.contact-icon:hover img.qrcode {
+  transform: scale(1);
+  opacity: 1;
+}
+/* Icon hover css */
 /* customize by jesse zhang */
 
 @media (prefers-reduced-motion: no-preference) {
