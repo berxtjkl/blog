@@ -11463,7 +11463,8 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    /* comment this line to make all the section save line height blank, otherwise the upper and lower blank is too much with skills and interests section.  */
+    /* min-height: 100vh; */
   }
 }
 @media (min-width: 992px) {
